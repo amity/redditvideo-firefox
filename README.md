@@ -1,4 +1,4 @@
-## Reddit Video Linker</h2>
+## Reddit Video Extractor</h2>
 Firefox extension that adds a button to the context menu (right-click) on reddit to directly link to a video hosted by reddit at v.redd.it. To use it, right click on the full link to a post (from the main page, this is the link saying "54 comments", or whatever number), and click "Get direct video link." A dialog will pop up allowing you to copy it directly.
 You can [download it for free from the Firefox Web store.](#)
 
