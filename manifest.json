@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "Reddit Video Extractor",
+    "version": "1.0",
+    "description": "Get the direct link to a video on reddit.",
+    "icons": {
+        "128": "img/icon128.png",
+        "16": "img/icon16.png",
+        "32": "img/icon32.png",
+        "48": "img/icon48.png"
+    },
+    "permissions": ["contextMenus", "activeTab", "*://reddit.com/*", "*://*.reddit.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["*://*.reddit.com/*"]
+        }
+    ],
+    "background": {
+        "scripts": [
+            "main.js"
+        ]
+    }
+}
