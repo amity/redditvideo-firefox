@@ -15,7 +15,7 @@ function getLink(info, tab) {
 
 browser.contextMenus.create({
   id: "reddit-video-extractor",
-  title: "Get direct video link CMs",
+  title: "Get direct video link",
   contexts:["link"],  // ContextType
   onclick: getLink // A callback function
 });
