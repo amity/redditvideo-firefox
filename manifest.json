@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Reddit Video Extractor",
-    "version": "1.0",
+    "version": "1.0.2",
     "description": "Get the direct link to a video on reddit.",
     "icons": {
         "128": "img/icon128.png",
